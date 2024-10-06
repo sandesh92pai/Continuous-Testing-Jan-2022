@@ -17,4 +17,9 @@ public class simpleTalk {
     public void test3(){
         Assert.assertFalse(false);
     }
+
+    @Test
+    public void test4(){
+        Assert.assertFalse(false);
+    }
 }
