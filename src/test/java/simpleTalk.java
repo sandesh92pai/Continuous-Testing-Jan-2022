@@ -12,4 +12,9 @@ public class simpleTalk {
     public void test2(){
         Assert.assertTrue(false);
     }
+
+    @Test
+    public void test3(){
+        Assert.assertFalse(false);
+    }
 }

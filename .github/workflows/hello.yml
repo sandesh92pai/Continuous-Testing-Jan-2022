@@ -1,11 +1,9 @@
-name: helloworld
+name: pr closed trigger
 
 on:
- push:
-  branches:
-   - main
  pull_request:
-   branches:
+  types: [closed] 
+  branches:
     - main
    
 
